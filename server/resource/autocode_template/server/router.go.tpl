@@ -1,8 +1,8 @@
 package {{.Package}}
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/api/v1"
-	"github.com/flipped-aurora/gin-vue-admin/server/middleware"
+	"go-vue-project/api/v1"
+	"go-vue-project/middleware"
 	"github.com/gin-gonic/gin"
 )
 

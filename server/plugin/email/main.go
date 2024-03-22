@@ -1,9 +1,9 @@
 package email
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/email/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/plugin/email/router"
 	"github.com/gin-gonic/gin"
+	"go-vue-project/plugin/email/global"
+	"go-vue-project/plugin/email/router"
 )
 
 type emailPlugin struct{}

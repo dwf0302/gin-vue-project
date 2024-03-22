@@ -1,9 +1,9 @@
 package {{.Package}}
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/{{.Package}}"
-    {{.Package}}Req "github.com/flipped-aurora/gin-vue-admin/server/model/{{.Package}}/request"
+	"go-vue-project/global"
+	"go-vue-project/model/{{.Package}}"
+    {{.Package}}Req "go-vue-project/model/{{.Package}}/request"
     {{- if .AutoCreateResource }}
     "gorm.io/gorm"
     {{- end}}

@@ -1,13 +1,13 @@
 package initialize
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/docs"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/middleware"
-	"github.com/flipped-aurora/gin-vue-admin/server/router"
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
+	"go-vue-project/docs"
+	"go-vue-project/global"
+	"go-vue-project/middleware"
+	"go-vue-project/router"
 	"net/http"
 	"os"
 )

@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
 	"github.com/gookit/color"
+	"go-vue-project/config"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"go-vue-project/utils"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
 	"github.com/gofrs/uuid/v5"
+	"go-vue-project/global"
+	"go-vue-project/model/system/request"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

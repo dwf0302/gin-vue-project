@@ -2,7 +2,7 @@
 package system
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
+	"go-vue-project/global"
 )
 
 // 导出模板 结构体  SysExportTemplate

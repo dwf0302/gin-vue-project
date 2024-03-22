@@ -3,13 +3,13 @@ package system
 import (
 	"context"
 	"errors"
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
 	"github.com/glebarez/sqlite"
 	"github.com/gofrs/uuid/v5"
 	"github.com/gookit/color"
+	"go-vue-project/config"
+	"go-vue-project/global"
+	"go-vue-project/model/system/request"
+	"go-vue-project/utils"
 	"gorm.io/gorm"
 	"path/filepath"
 )

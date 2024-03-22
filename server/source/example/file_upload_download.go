@@ -2,9 +2,9 @@ package example
 
 import (
 	"context"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/example"
-	"github.com/flipped-aurora/gin-vue-admin/server/service/system"
 	"github.com/pkg/errors"
+	"go-vue-project/model/example"
+	"go-vue-project/service/system"
 	"gorm.io/gorm"
 )
 

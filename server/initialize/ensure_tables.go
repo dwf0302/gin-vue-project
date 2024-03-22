@@ -3,9 +3,9 @@ package initialize
 import (
 	"context"
 	adapter "github.com/casbin/gorm-adapter/v3"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/example"
-	sysModel "github.com/flipped-aurora/gin-vue-admin/server/model/system"
-	"github.com/flipped-aurora/gin-vue-admin/server/service/system"
+	"go-vue-project/model/example"
+	sysModel "go-vue-project/model/system"
+	"go-vue-project/service/system"
 	"gorm.io/gorm"
 )
 

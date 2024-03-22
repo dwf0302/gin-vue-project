@@ -1,9 +1,9 @@
 package system
 
 import (
-	v1 "github.com/flipped-aurora/gin-vue-admin/server/api/v1"
-	"github.com/flipped-aurora/gin-vue-admin/server/middleware"
 	"github.com/gin-gonic/gin"
+	v1 "go-vue-project/api/v1"
+	"go-vue-project/middleware"
 )
 
 type DictionaryRouter struct{}

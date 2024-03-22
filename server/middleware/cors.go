@@ -1,9 +1,9 @@
 package middleware
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
 	"github.com/gin-gonic/gin"
+	"go-vue-project/config"
+	"go-vue-project/global"
 	"net/http"
 )
 
